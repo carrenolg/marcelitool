@@ -10,3 +10,5 @@ $ sudo apt install cpu-checker
 $ sudo apt install -y qemu qemu-kvm libvirt-daemon libvirt-clients bridge-utils virt-manager
 # service status
 $ sudo systemctl status libvirtd
+# start
+$ sudo virt-manager
