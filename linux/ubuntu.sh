@@ -81,7 +81,8 @@ $ sudo ufw allow 'Nginx HTTP'
 # we can enable the firewall by typing
 $ sudo ufw enable
 
-
-
-
-
+# kill process
+$ ps -A 
+$ ps aux | grep "NameProcess or PID"
+$ kill -9 "PID"
+$ pkill "NameProcess"
