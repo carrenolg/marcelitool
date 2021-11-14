@@ -86,3 +86,6 @@ $ ps -A
 $ ps aux | grep "NameProcess or PID"
 $ kill -9 "PID"
 $ pkill "NameProcess"
+
+# check free space on disk
+$ df -h
