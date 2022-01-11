@@ -55,7 +55,7 @@ $ sudo mv /app /opt
 $ sudo ln -s /opt/app/binary /usr/local/bin/app
 
 # Make sure what packet will install
-$ apt-cache policy docker-ce
+$ apt-cache policy "package-name"
 
 # install and setting up zsh, oh my zsh
 $ sudo apt install zsh # zsh 5.0.8
