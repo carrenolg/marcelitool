@@ -32,7 +32,6 @@ $ sudo netstat -lnp | grep "packet"
 # show what ports is running
 $ netstat -nltp
 
-
 #list service
 $ systemctl
 $ systemctl --type=service --state=active

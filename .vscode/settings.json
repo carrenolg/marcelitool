@@ -1,24 +1,17 @@
 {
     "sqltools.connections": [
         {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
             "previewLimit": 50,
             "server": "localhost",
-            "port": 5432,
-            "driver": "PostgreSQL",
-            "name": "dev",
-            "database": "postgres",
-            "username": "postgres",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "LocalServer",
+            "database": "mysql",
+            "username": "test",
             "password": "1q2w3e4r"
-        },
-        {
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "askForPassword": true,
-            "driver": "PostgreSQL",
-            "name": "dbacutis",
-            "database": "dbacutis",
-            "username": "postgres"
         }
     ]
 }

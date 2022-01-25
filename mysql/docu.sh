@@ -3,7 +3,7 @@ $ sudo mysql
 # Connect to server as root (localhost)
 $ sudo mysql -h localhost -u root -p
 # Create new user from shell
-> CREATE USER 'test'@'localhost' IDENTIFIED BY 'password';
+> CREATE USER 'test'@'localhost' IDENTIFIED BY '1q2w3e4r';
 # Add privileges (root)
 > GRANT ALL PRIVILEGES ON * . * TO 'test'@'localhost';
 # Save changes
