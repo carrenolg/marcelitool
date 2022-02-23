@@ -9,6 +9,6 @@ postgres>\q
 # 3. connecting from client db
 Host: localhost
 Port: 5432
-Database: postgres
+Database: testdb
 User: admin
 Pass: 1q2w3e
